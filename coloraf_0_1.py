@@ -19,10 +19,10 @@ def coloraf(selection="all"):
     The name of the selection/object to color by pLDDT. Default: all
     """
 
-    cmd.color("blue", f"({selection}) and b > 90")
-    cmd.color("cyan", f"({selection}) and b < 90 and b > 70")
-    cmd.color("yellow", f"({selection}) and b < 70 and b > 50")
-    cmd.color("orange", f"({selection}) and b < 50")
+    cmd.color("blue", f"({selection}) and b > 0.9")
+    cmd.color("cyan", f"({selection}) and b < 0.9 and b > 0.7")
+    cmd.color("yellow", f"({selection}) and b < 0.7 and b > 0.5")
+    cmd.color("orange", f"({selection}) and b < 0.5")
 
 
 cmd.extend("coloraf", coloraf)
