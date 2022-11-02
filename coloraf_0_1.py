@@ -1,7 +1,7 @@
 from pymol import cmd
 
 
-def coloraf(selection="all"):
+def coloraf_0_1(selection="all"):
 
     """
     AUTHOR
